@@ -1,0 +1,48 @@
+CLI
+Command Line Interface
+ls meaning List... it lists all the contents of a particular folder.
+Cd- used to change directory. Directory is also known as the folder or repository.
+Mkdir- Make Directory i.e used to make a new folder 
+touch - is used to make a particular file.
+
+cd .. - used to move between folders. Its used to make 1 step backward.
+
+cd ../.. - used to move to the root directory.
+
+cd folder/folder - used to go to an exact folder thats located in another folder.
+
+clear- to clear the interface i.e refresh
+
+cat- used to view the content of a file.
+
+nano- opens a particular file for edit.
+
+Code .- its used to open up a file inside VS code. It takes us directly to VS code.
+
+Start: is used to open a particular file.
+
+Control + C is used to force stop a command.
+
+Git clone: paste the code directory from the github. Its used to  clone a repository i.e clone a repository on github and open on vscode.
+git clone link-to-repo
+
+cd repofolder 
+
+git status: its used to check if the file is updated or show the file also created in the repository.
+
+get add: it prepares a file for commit. Takes all new modifications and new files and prepare them for commit. i.e add a particular file into the github thereby preparing it for a commit.
+
+git add .
+git commit -m "message"
+
+git config --global user.email "email"
+ 
+git config --global user.name "name"
+
+
+git config --list
+
+
+
+
+git push - to post it on the github site.

@@ -1,0 +1,142 @@
+What Is Git?
+
+Git is a distributed version control system used to track changes in files, especially source code.
+
+In simpler terms:
+
+Git helps developers keep a history of their code and collaborate with other developers.
+
+Imagine you are working on a project.
+
+Monday:
+
+project/
+├── index.html
+├── style.css
+└── script.js
+
+You make changes on Tuesday.
+
+Then on Wednesday, you realize:
+
+"Oh no! The changes I made yesterday broke everything."
+
+Without version control, you may have to manually figure out what changed.
+
+With Git, you can inspect your history and potentially return to an earlier version.
+
+
+The Problem Git Solves
+
+Without Git, developers might create files like:
+
+project-final.zip
+project-final-2.zip
+project-final-new.zip
+project-final-newest.zip
+project-final-REAL.zip
+project-final-REAL-FINAL.zip
+
+😂
+
+Git gives us a much better way.
+
+Git History
+
+Commit 1
+   ↓
+Commit 2
+   ↓
+Commit 3
+   ↓
+Commit 4
+
+Each commit represents a saved point in the project's history.
+
+4. What Is Version Control?
+
+Version control is a system for tracking changes to files over time.
+
+It allows us to:
+
+Track who changed something.
+See what changed.
+See when it changed.
+Revert changes.
+Work on different features.
+Collaborate with other developers.
+
+Git is one of the most popular version control systems.
+
+5. Git vs GitHub
+
+This is one of the first things students should understand.
+
+Git
+
+Git is the version control software.
+
+It runs on your computer.
+
+Your Computer
+     ↓
+    Git
+     ↓
+Tracks your project
+GitHub
+
+GitHub is a platform for hosting Git repositories online and collaborating around them.
+
+Your Computer
+     ↓
+    Git
+     ↓
+GitHub
+Simple analogy
+
+Think of Git as:
+
+The notebook that records your project's history.
+
+GitHub is:
+
+A place where you can store and share that notebook/project online.
+
+Terminal vs Command Line
+
+You will often hear:
+
+Terminal
+Command line
+Shell
+CLI
+
+They are related, but technically they're not exactly the same thing.
+
+Terminal
+
+The application/window where you interact with the shell.
+
+Examples:
+
+Windows Terminal
+macOS Terminal
+GNOME Terminal
+Shell
+
+The program that interprets your commands.
+
+Examples:
+
+Bash
+Zsh
+PowerShell
+CLI
+
+Command Line Interface
+
+A way of interacting with software using commands rather than a graphical interface.
+
+For this course, students can think of the terminal as:
+
+The place where we type commands to interact with our computer and development tools.
